@@ -8,18 +8,18 @@ const projects = [
     {
         text1: "loftloom",
         text2: "UI Design, UX, Wireframe",
-        image: "../public/images/image1.jpeg"
+        image: "/images/image1.jpeg"
     },
     {
         text1: "imusic",
         text2: "Research, UX, UI Design",
-        image: "../public/images/image2.jpeg",
+        image: "/images/image2.jpeg",
         reverse: true
     },
     {
         text1: "technis",
         text2: "UX, UI Design, Development",
-        image: "../public/images/image3.jpeg"
+        image: "/images/image3.jpeg"
     }
 ]
 

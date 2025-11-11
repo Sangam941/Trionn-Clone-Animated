@@ -5,12 +5,12 @@ const Navbar = () => {
   return ( 
     <div className='bg-transparent flex items-center justify-between py-3 fixed top-0 w-full backdrop-blur-sm z-50 px-32'>
       <div className="logo">
-        <img src="../src/assets/trionn_logo.svg" alt="" />
+        <img src="/images/trionn_logo.svg" alt="" />
       </div>
 
       <div className="middle flex items-center justify-center gap-2">
-        <img src="../src/assets/sun.svg" alt="" />
-        <img src="../src/assets/stats.svg" height={24} width={24} alt="" />
+        <img src="/images/sun.svg" alt="" />
+        <img src="/images/stats.svg" height={24} width={24} alt="" />
       </div>
 
       <div className="menu flex items-center justify-center gap-2">

@@ -80,7 +80,7 @@ const HeroSection = () => {
 
             </div>
             <div ref={vdoRef} className="video rounded-full h-20 overflow-hidden border-2 w-32 absolute top-[95%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                <video src="../src/assets/intro-video.mp4" autoPlay loop muted playsInline></video>
+                <video src="/video/intro-video.mp4" autoPlay loop muted playsInline></video>
             </div>
 
         </div>

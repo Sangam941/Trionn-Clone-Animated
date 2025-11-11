@@ -6,12 +6,12 @@ import React, { useEffect, useRef } from 'react'
 gsap.registerPlugin(ScrollTrigger);
 
 const cardsData = [
-    { id: 1, image: "../public/images/card2_files/dribbble1.webp", title: "Card 1" },
-    { id: 2, image: "../public/images/card2_files/dribbble2.webp", title: "Card 2" },
-    { id: 3, image: "../public/images/card2_files/dribbble3.webp", title: "Card 3" },
-    { id: 4, image: "../public/images/card2_files/dribbble4.webp", title: "Card 4" },
-    { id: 5, image: "../public/images/card2_files/dribbble5.webp", title: "Card 5" },
-    { id: 6, image: "../public/images/card2_files/dribbble6.webp", title: "Card 6" },
+    { id: 1, image: "/images/card2_files/dribbble1.webp", title: "Card 1" },
+    { id: 2, image: "/images/card2_files/dribbble2.webp", title: "Card 2" },
+    { id: 3, image: "/images/card2_files/dribbble3.webp", title: "Card 3" },
+    { id: 4, image: "/images/card2_files/dribbble4.webp", title: "Card 4" },
+    { id: 5, image: "/images/card2_files/dribbble5.webp", title: "Card 5" },
+    { id: 6, image: "/images/card2_files/dribbble6.webp", title: "Card 6" },
 ];
 
 const Dribble = () => {
@@ -80,7 +80,7 @@ const Dribble = () => {
 
                 <div className="bg-transparent p-5 text-3xl w-1/3 font-semibold center-text flex  flex-col items-center gap-10 font-sans tracking-tighter text-center absolute top-[50%] opacity-0 left-[50%] -translate-x-[50%] -translate-y-[50%]" ref={textRef}>
                     <div className="dribble bg-transparent">
-                        <img src="../images/card2_files/dribbble.1a51ca99.webp" width={`200px`} alt="this is image" />
+                        <img src="/images/card2_files/dribbble.1a51ca99.webp" width={`200px`} alt="this is image" />
                     </div>
                     <p className='bg-transparent'>
                         Like a lion's roar echoing through the jungle, a hint of our creative
