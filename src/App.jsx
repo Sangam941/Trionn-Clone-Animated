@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../public/images/Navbar'
+import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import Work from './components/Work'
 import ProjectSection from './components/ProjectSection'

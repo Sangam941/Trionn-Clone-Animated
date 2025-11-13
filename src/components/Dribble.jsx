@@ -65,7 +65,7 @@ const Dribble = () => {
 
 
     return (
-        <div className="cards-section w-full px-32 relative">
+        <div className="cards-section overflow-x-hidden w-full px-32 relative">
             <div className="cards-container relative grid grid-cols-2 gap-5">
                 {cardsData.map((card, i) => (
                     <div
