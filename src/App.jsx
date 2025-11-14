@@ -11,8 +11,8 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='w-full h-screen text-white bg-[#121315]'>
-      <Navbar />
+    <div className='w-full min-h-screen text-white bg-[#121315] overflow-x-hidden'>
+      {/* <Navbar /> */}
       <HeroSection />
       <div className="empty h-screen w-full"></div>
       <Work />
