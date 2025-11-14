@@ -10,6 +10,7 @@ import Dribble from './components/Dribble'
 import Footer from './components/Footer'
 import JungleTrek from './components/JungleTrek'
 import SocialLinks from './components/SocialLinks'
+import MousePointer from './components/MousePointer'
 
 const App = () => {
   return (
