@@ -12,9 +12,9 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div className='w-full min-h-screen text-white bg-[#121315] overflow-x-hidden'>
-      {/* <Navbar /> */}
+      <Navbar />
       <HeroSection />
-      <div className="empty h-screen w-full"></div>
+      <div className="empty h-screen w-full max-md:hidden"></div>
       <Work />
       <ProjectSection />
       <Vision />

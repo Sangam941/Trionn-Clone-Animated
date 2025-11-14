@@ -52,7 +52,7 @@ const Work = () => {
   }, [])
 
   return (
-    <div className='work w-full min-h-screen flex flex-col px-4 sm:px-8 md:px-16 lg:px-32 pt-32 sm:pt-36 md:pt-44'>
+    <div className='work w-full min-h-[50vh] md:min-h-screen flex flex-col px-4 sm:px-8 md:px-16 lg:px-32 pt-32 sm:pt-36 md:pt-44'>
       
       {/* Heading */}
       <div ref={workRef} className="heading uppercase text-[5rem] sm:text-[7rem] md:text-[9rem] lg:text-[11rem] leading-[4rem] sm:leading-[6rem] md:leading-[7rem] lg:leading-[8rem] -tracking-[0.3rem] sm:-tracking-[0.5rem] md:-tracking-[0.7rem] lg:-tracking-[1rem] font-mono flex flex-col items-start w-full bg-gradient-to-l overflow-visible font-bold">

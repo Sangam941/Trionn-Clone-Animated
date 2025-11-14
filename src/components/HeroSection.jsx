@@ -95,7 +95,7 @@ const HeroSection = () => {
             <div
                 ref={vdoRef}
                 className="
-                    video rounded-full overflow-hidden border-2 absolute 
+                    video rounded-full overflow-hidden absolute 
                     left-1/2 -translate-x-1/2 -translate-y-1/2
                     top-[95%]
                     h-24 w-24 md:h-32 md:w-32 -mt-10 max-md:top-[50%] 
