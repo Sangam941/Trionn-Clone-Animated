@@ -15,7 +15,7 @@ const MousePointer = () => {
   return (
     <div 
     ref={cursor}
-    className='h-[30px] w-[30px] rounded-full bg-blue-300 absolute -top-2 z-[999] -left-3'>
+    className='h-[30px] w-[30px] rounded-full bg-blue-300 fixed -top-2 z-[999] -left-3'>
 
     </div>
   )
