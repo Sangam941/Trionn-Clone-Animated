@@ -22,7 +22,7 @@ const JungleTrek = () => {
             trigger: el,
             start: "top 80%",
             end: "top 50%",
-            scrub: false,
+            scrub: 2,
           },
         }
       );
