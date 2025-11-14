@@ -8,6 +8,8 @@ import StatsSection from './components/Stats'
 import Marquee from './components/Marquee'
 import Dribble from './components/Dribble'
 import Footer from './components/Footer'
+import JungleTrek from './components/JungleTrek'
+import SocialLinks from './components/SocialLinks'
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
       <StatsSection />
       <Marquee />
       <Dribble />
+      <JungleTrek />
+      <SocialLinks />
       <Footer />
     </div>
   )
