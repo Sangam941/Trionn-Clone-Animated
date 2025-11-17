@@ -39,7 +39,7 @@ const SocialLinks = () => {
     });
 
     gsap.to(img, {
-      rotation: 0,
+      rotation: 360,
       duration: 1.5,
       ease: "power2.out",
     });

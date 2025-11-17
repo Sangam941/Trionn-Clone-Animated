@@ -21,15 +21,15 @@ const Dribble = () => {
   const isDesktop = window.innerWidth >= 760;
 
   useEffect(() => {
-    if(!isDesktop) return;
-    if(isMobile) return;
+    if (!isDesktop) return;
+    if (isMobile) return;
 
     const rows = [
       cardsRef.current.slice(0, 2),
       cardsRef.current.slice(2, 4),
       cardsRef.current.slice(4, 6)
     ];
-  
+
     rows.forEach((row, rIndex) => {
       gsap.to(row, {
         y: -40 * rIndex,
@@ -38,8 +38,8 @@ const Dribble = () => {
         scale: 0.95,
         zIndex: 30 + rIndex,
         scrollTrigger: {
-          trigger: ".cards-container",
-          start: 'top 10%',
+          trigger: ".cards-section",
+          start: 'top 50%',
           end: 'bottom 0%',
           scrub: 2
         }
@@ -54,30 +54,30 @@ const Dribble = () => {
       duration: 1,
       scrollTrigger: {
         trigger: ".cards-section",
-        start: "top 60%",
+        start: "top 20%",
         end: "top 20%",
         scrub: 2
       }
     });
   }, []);
 
-   useEffect(() => {
-    if(!isMobile) return;
-    if(isDesktop) return;
+  useEffect(() => {
+    if (!isMobile) return;
+    if (isDesktop) return;
 
     cardsRef.current.forEach((card, index) => {
-        const direction = index % 2 === 0 ? 300 : -300; 
+      const direction = index % 2 === 0 ? 300 : -300;
       if (!card) return;
 
-        gsap.fromTo(
-            card,
-            { x: 0 },
-            {
-                x: direction,
-                scrollTrigger: {
-                    trigger: card,
-                    start: "top 80%",
-                    end: "top 20%",
+      gsap.fromTo(
+        card,
+        { x: 0 },
+        {
+          x: direction,
+          scrollTrigger: {
+            trigger: card,
+            start: "top 80%",
+            end: "top 20%",
             scrub: true
           }
         }

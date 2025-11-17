@@ -21,7 +21,7 @@ export default function Footer() {
                 ease: "power3.out",
                 scrollTrigger: {
                     trigger: ".footer",
-                    start: "bottom 80%",
+                    start: "top 50%",
                     scrub: 2,
                 },
             });
@@ -37,7 +37,7 @@ export default function Footer() {
                 ease: "power3.out",
                 scrollTrigger: {
                     trigger: ".footer",
-                    start: "bottom 80%",
+                    start: "top 60%",
                     scrub: 2,
                 },
             }
@@ -54,7 +54,7 @@ export default function Footer() {
                 ease: "power3.out",
                 scrollTrigger: {
                     trigger: ".footer",
-                    start: "bottom 80%",
+                    start: "top 40%",
                     scrub: 2,
                 },
             }
@@ -63,7 +63,7 @@ export default function Footer() {
         const tl = gsap.timeline()
 
         tl.fromTo(contactRef.current.children, {
-            y: 50,
+            y: 20,
             opacity: 0,
         },{
             y:0,
@@ -73,7 +73,8 @@ export default function Footer() {
             ease:"power3.out",
             scrollTrigger:{
                 trigger: contactRef.current,
-                start: "bottom 80%",
+                start: "top 80%",
+                end: "bottom 100%",
                 scrub:2
             }
         })

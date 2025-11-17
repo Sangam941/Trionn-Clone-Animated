@@ -50,7 +50,7 @@ export default function StatsCards() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: card,
-            start: "bottom 80%",
+            start: "top 50%",
             end: "bottom 20%",
             scrub: 2
           }
@@ -62,7 +62,7 @@ export default function StatsCards() {
   return (
     <div
       ref={sectionRef}
-      className="px-4 md:px-8 lg:px-32 md:gap-6 overflow-x-hidden w-full min-h-[60vh] grid grid-cols-1 md:grid-cols-2 gap-2"
+      className="px-4 md:px-8 lg:pt-16 lg:py-56 lg:px-32 md:gap-6 overflow-x-hidden w-full min-h-[60vh] grid grid-cols-1 md:grid-cols-2 gap-2"
     >
       {stats.map((card, index) => {
         // For mobile, remove translation; only apply on larger screens
